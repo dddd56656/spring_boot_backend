@@ -1,96 +1,44 @@
-# === Java ===
+# === Java & Maven/Gradle 项目常规 ===
 
-# 编译输出
-/bin/
-/build/
 /target/
+/build/
 /out/
-/*.class
-
-# === IDE 相关 ===
-
-# IntelliJ IDEA
+/bin/
 /.idea/
 /*.iml
-*.iws
-*.ipr
-
-# VS Code
-.vscode/
-
-# Eclipse
-.classpath
-.project
-.settings/
-
-# NetBeans
-/nbproject/private/
-/build/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-# === 操作系统相关 ===
+*.log
+*.tmp
+*.swp
+*.bak
+*.class
 .DS_Store
 Thumbs.db
-ehthumbs.db
-*.swp
-*.swo
-*.bak
 
-# === 包管理 & 依赖缓存 ===
-
-# Maven
-/logs/
-*.log
+# Maven Wrapper
+/.mvn/
 mvnw
 mvnw.cmd
-/.mvn/
 
 # Gradle
 .gradle
 /build/
 !gradle/wrapper/gradle-wrapper.jar
 
-# === 临时文件、测试、环境 ===
-
-# 日志 & 临时文件
-*.log
-*.tmp
-*.swp
-*.swo
-*.bak
-
-# 环境配置（如本地开发私密配置，可选）
-.env
-*.env
-
-# 运行时 & 覆盖测试文件
-*.hprof
-*.pid
-*.seed
-*.orig
-*.rej
-*.coverage
-*.dump
-
-# === 数据库 & 缓存文件 ===
-*.db
-*.sqlite
-*.h2.db
-
-# === 其它常见排除项 ===
-
-# 包含 CI/CD 产生的缓存（如 GitHub Actions）
-/.github/workflows/*.tmp
-
-# 包含全局排除样例
-.idea/
+# VSCode/IDEA等IDE配置
+.vscode/
+/.idea/
 *.iml
 *.ipr
 
-# === 最佳实践：排除本地个性化/私密/自动生成内容 ===
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
 
-# 不要忽略项目实际所需的源代码、配置模板、脚本和文档等！
+# 环境
+.env
+*.env
 
+# 其他
+*.db
+*.h2.db
