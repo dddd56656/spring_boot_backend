@@ -4,15 +4,15 @@
            http://maven.apache.org/POM/4.0.0
            https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>com.example</groupId>
+        <groupId>sww</groupId>
         <artifactId>springboot-parent</artifactId>
         <version>2.7.17</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
-    <artifactId>web</artifactId>
-    <name>Web Module</name>
+    <groupId>sww</groupId>
+    <artifactId>service</artifactId>
+    <name>Service Module</name>
     <description>Spring Boot Web 服务模块</description>
 
     <dependencies>
