@@ -1,44 +1,48 @@
-# === Java & Maven/Gradle 项目常规 ===
+######################################################################
+# Build Tools
 
-/target/
-/build/
-/out/
-/bin/
-/.idea/
-/*.iml
-*.log
-*.tmp
-*.swp
-*.bak
-*.class
-.DS_Store
-Thumbs.db
-
-# Maven Wrapper
-/.mvn/
-mvnw
-mvnw.cmd
-
-# Gradle
 .gradle
 /build/
 !gradle/wrapper/gradle-wrapper.jar
 
-# VSCode/IDEA等IDE配置
-.vscode/
-/.idea/
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+######################################################################
+# IDE
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
 *.iml
 *.ipr
 
-# OS
-.DS_Store
-Thumbs.db
-ehthumbs.db
+### JRebel ###
+rebel.xml
 
-# 环境
-.env
-*.env
+### NetBeans ###
+nbproject/private/
+build/*
+nbbuild/
+nbdist/
+.nb-gradle/
 
-# 其他
-*.db
-*.h2.db
+######################################################################
+# Others
+*.log
+*.xml.versionsBackup
+*.swp
+
+!*/build/*.java
+!*/build/*.html
+!*/build/*.xml
+
+.flattened-pom.xml
